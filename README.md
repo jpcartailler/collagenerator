@@ -1,5 +1,18 @@
 # COLLAGENerator
-Use circular permutation approach to solve and visualize chiral assemblies of collagen trimers.
+Use circular permutation approach to solve and visualize chiral assemblies of Type IV collagen protomers.
+
+Each collagen protomer is a trimer. In humans, there are six (6) possible variants that can be selected from known as "alpha subunits/chains", labeled &alpha;1, &alpha;2, &alpha;3, &alpha;4, &alpha;5, and &alpha;6:
+
+| Subunit  | Representation |
+| ------------- | ------------- |
+| &alpha;1 | ![Alpha1](processing/extras/sketch_monomer/sketch_monomer_1.png?raw=true) |
+| &alpha;2 | ![Alpha2](processing/extras/sketch_monomer/sketch_monomer_2.png?raw=true) |
+| &alpha;3 | ![Alpha3](processing/extras/sketch_monomer/sketch_monomer_3.png?raw=true) |
+| &alpha;4 | ![Alpha4](processing/extras/sketch_monomer/sketch_monomer_4.png?raw=true) |
+| &alpha;5 | ![Alpha5](processing/extras/sketch_monomer/sketch_monomer_5.png?raw=true) |
+| &alpha;6 | ![Alpha6](processing/extras/sketch_monomer/sketch_monomer_6.png?raw=true) |
+
+There X number of possible combinations of these subunits into trimers. However, not every combination has been observed in nature. 
 
 ## Dependencies
 - Python 2.7
