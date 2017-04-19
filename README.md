@@ -14,19 +14,24 @@ Use circular permutation approach to solve and visualize chiral assemblies of co
 Use processing/simple/simple.py
 ![Alt text](processing/simple/simple.png?raw=true)
 
+
 ## Processing / Simple with labels
-Use processing/simple_with_labels/simple_with_labels.py
+Use processing/simple_with_labels/simple_with_labels.
+
 ![Alt text](processing/simple_with_labels/simple_with_labels.png?raw=true)
 
 ## Processing / Simple with labels and inner circle
 Use processing/simple_with_labels_and_inner_circle/simple_with_labels_and_inner_circle.py
+
 ![Alt text](processing/simple_with_labels_and_inner_circle/simple_with_labels_and_inner_circle.png?raw=true)
 
 
 ### Processing / Extras
 **sketch_arc_midpoint.py** - calculate and generate arc midpoint
+
 ![Alt text](processing/extras/sketch_arc_midpoint/sketch_arc_midpoint.png?raw=true)
 
 **sketch_static.py** - image array generator, this was simply a go-between towards final scripts.
+
 ![Alt text](processing/extras/sketch_static/sketch_static.png?raw=true)
 
