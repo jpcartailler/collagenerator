@@ -1,6 +1,10 @@
 # COLLAGENerator
 Use circular permutation approach to solve and visualize chiral assemblies of collagen trimers.
 
+## Dependencies
+- Python 2.7
+- Processing 2.2
+ 
 ## Documentation
 
 1. Use `generate-nonredundant-trimers.py` to solve and generate list of chiral trimer assemblies.
@@ -12,7 +16,7 @@ Use processing/simple/simple.py
 
 ## Processing / Simple with labels
 Use processing/simple_with_labels/simple_with_labels.py
-![Alt text](processing/simple/simple.png?raw=true)
+![Alt text](processing/simple_with_labels/simple_with_labels.png?raw=true)
 
 ## Processing / Simple with labels and inner circle
 Use processing/simple_with_labels_and_inner_circle/simple_with_labels_and_inner_circle.py
