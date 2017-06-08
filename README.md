@@ -1,7 +1,9 @@
 # COLLAGENerator
-Use circular permutation approach to solve and visualize chiral assemblies of Type IV collagen protomers.
+Use circular permutation approach to solve and visualize chiral assemblies of Type IV collagen protomers. The approach provided here is applicable to other domains of interest, not simply biochemistry. Lastly, please note that the code/method here is rough and the code isn't particularly elegant, but it gets the job done and is easy to read. 
 
-Each collagen protomer is a trimer. In humans, there are six (6) possible variants that can be selected from known as "alpha subunits/chains", labeled &alpha;1, &alpha;2, &alpha;3, &alpha;4, &alpha;5, and &alpha;6:
+**The biology of collagen**
+
+Collagen is the most abundant protein in animals and during its synthesis, three collagen polypeptide strands are assembled in triple-helix quaternary structure. You can ready all about it [here](https://en.wikipedia.org/wiki/Collagen). These triple-helix assemblies - effectively trimers - are also called protomers.  There are many types of collagens but this page is focused on human Type IV collagen. There are six genes for Type IV Collagen, and their protein products are &alpha;1, &alpha;2, &alpha;3, &alpha;4, &alpha;5, and &alpha;6. These can be mixed into protomers to form functional collagen.
 
 | Subunit  | Representation |
 | ------------- | ------------- |
@@ -12,7 +14,9 @@ Each collagen protomer is a trimer. In humans, there are six (6) possible varian
 | &alpha;5 | ![Alpha5](processing/extras/sketch_monomer/sketch_monomer_5.png?raw=true) |
 | &alpha;6 | ![Alpha6](processing/extras/sketch_monomer/sketch_monomer_6.png?raw=true) |
 
-There X number of possible combinations of these subunits into trimers. However, not every combination has been observed in nature. 
+However, only a handful of trimer configurations have been discovered to exist in nature: &alpha;1-&alpha;1-&alpha;2, &alpha;3-&alpha;4-&alpha;5, and &alpha;5-&alpha;5-&alpha;6.
+
+Solved as a linear model, there are 432 possible trimers. However, the circular arrangement of these results in the use of circular permutations to address uniqueness. For example, the timer &alpha;1-&alpha;1-&alpha;2 is the same as &alpha;1-&alpha;2-&alpha;1 and the same as &alpha;2-&alpha;1-&alpha;1. Moreover, even when we solve the number of possible trimers, not all of these have been observed in nature.
 
 ## Dependencies
 - Python 2.7
